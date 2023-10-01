@@ -1,0 +1,108 @@
+
+body {
+    font-family: 'Rubik', sans-serif;
+    color: #ffffff;
+    background-color: #14151a;
+
+}
+.app-chart__canvas {
+    width: 800px;
+    height: 500px;
+
+}
+.container {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.select-box {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block;
+}
+
+.input-box {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.input-box:disabled{
+    background-color: #ccc;
+}
+.container-double{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2128;
+}
+.language-switcher {
+    text-align: center;
+    margin-top: 30px;
+    margin-right: -180px;
+}
+
+select{
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.content {
+    text-align: center;
+}
+header{
+    text-align: center;
+}
+.nameExchange{
+    font-size: 30px;
+    font-weight:bold;
+    margin-right: 20px;
+}
+.container2{
+    display: flex;
+}
+.historyBlock{
+    background-color: rgb(116, 107, 107);
+    position: relative;
+    left: 50px;
+}
+.button{
+   margin-top: 100px ;
+   margin-left: -80px;
+}
+.buttonConvert {
+    padding: 10px 20px; 
+    background-color: #007BFF; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+.buttonConvert:hover {
+    background-color: #0056b3; 
+}
+.buttonClearHistory{
+    position: absolute;
+    margin-left: 60px ;
+    padding: 10px 20px; 
+    background-color: #007BFF; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+}
+.buttonClearHistory:hover{
+    background-color: #0056b3; 
+}

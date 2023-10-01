@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+	<link rel="stylesheet" href="style.css" />
+
+	<title class="titlename">Конвертер валют на JavaScript</title>
+</head>
+
+<body>
+	<header>
+		<div class="nameExchange">Обмінник</div>
+	</header>
+	<div class="main-container">
+		<div class="container-double">
+			<div class="container">
+				<label class="FormControlSelectFirst" for="FormControlSelect1">Віддаю:</label>
+				<select id="FormControlSelect1" class="select-box">
+
+				</select>
+				<input type="number" id="input1" class="input-box"  min="0" value="1">
+			</div>
+           <div class="button">
+			<button class="buttonConvert" id="buttonConvert">Конвертувати</button>
+		   </div>
+			<div class="container">
+				<label class="FormControlSelectSecond" for="FormControlSelect2">Отримую:</label>
+				<select id="FormControlSelect2" class="select-box" >
+				</select>
+				<input type="number" id="input2" class="input-box" disabled>
+			</div>
+			<div class="language-switcher">
+				<select name="select-language" id="selectLeng">
+					<option value="ua" selected>УКР</option>
+					<option value="en">EN</option>
+				</select>
+			</div>
+			<div class="content">
+
+			</div>
+		</div>
+		<div class="container2">
+			<div class="app__chart">
+
+
+				<div class="app-chart__canvas">
+					<canvas class="chart"></canvas>
+				</div>
+
+			</div>
+			<div class="history">
+				<div class="historyBlock">Історія конвертацій
+				</div>
+				<div class="test">
+					<ul id="numberList"></ul>
+				</div>
+	
+			</div>
+			<div class="button-history">
+				<button class="buttonClearHistory" id="buttonClearHistory">Очистить історію</button>
+			</div>
+		</div>
+	</div>
+	<script src="chart.min.js"></script>
+	<script src="main.js"></script>
+</body>
+
+</html>
